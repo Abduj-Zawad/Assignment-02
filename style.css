@@ -268,8 +268,11 @@ footer p{
     .popular-collection, .first-part, .top-influencer, footer{
         width: 100%;
     }
-    .first-part, .top-influencer{
+    .top-influencer{
       grid-template-columns: repeat(2, 1fr);
+    }
+    .first-part{
+        grid-template-columns: repeat(1, 1fr);
     }
     .products, .influencers, .section-title{
         grid-template-columns: repeat(2, 1fr);
